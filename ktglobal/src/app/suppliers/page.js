@@ -12,7 +12,7 @@ const SuppliersPage = () => {
 
   return (
     <div className={styles.SContainer}>
-      <h1 className={styles.STitle}>Our Suppliers</h1>
+      <h1 className={styles.STitle}>Tedarikçilerimiz</h1>
       <div className={styles.SList}>
         {suppliers.map((supplier) => (
           <div key={supplier.id} className={styles.SCard}>

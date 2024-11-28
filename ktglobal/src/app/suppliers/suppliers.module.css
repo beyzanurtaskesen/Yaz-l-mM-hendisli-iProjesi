@@ -1,54 +1,105 @@
 .SContainer {
-    font-family: 'Arial', sans-serif;
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.STitle {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #281cb6;
+  margin-bottom: 20px;
+}
+
+.SList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Kartları yatayda ortalar */
+}
+
+.SCard {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px; /* Kartların sabit genişliği */
+  height: 400px; /* Kartların sabit yüksekliği */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.SCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.SName {
+  font-size: 1.5rem;
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.SDescription {
+  font-size: 1rem;
+  color: #666;
+}
+
+.SImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  height: 150px; /* Görsel alanı için sabit yükseklik */
+  margin-bottom: 10px;
+}
+
+.SImage img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
   .STitle {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .SList {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .SCard {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    max-width: 300px;
-    text-align: center;
-    justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 2rem;
   }
 
-  .SCard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  .SCard {
+    width: 90%; /* Daha küçük ekranlarda genişlik %90 olacak */
+    height: auto; /* Yükseklik içeriğe göre ayarlanır */
   }
-  
-  .SName {
-    font-size: 1.5rem;
-    color: #0073e6;
-    margin-bottom: 10px;
-  }
-  
+
   .SDescription {
-    font-size: 1rem;
-    color: #666;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .STitle {
+    font-size: 1.8rem;
+  }
+
+  .SCard {
+    padding: 15px;
+  }
+
+  .SName {
+    font-size: 1.2rem;
+  }
+
+  .SDescription {
+    font-size: 0.8rem;
   }
 
   .SImage {
-    background: white;
-    border-radius: 8px;
-    padding: 20px;
-    min-height: 100px;
+    height: 120px; /* Görsel alanı daha küçük ekranlarda küçülür */
   }
+}
