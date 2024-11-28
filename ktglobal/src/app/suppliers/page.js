@@ -1,40 +1,30 @@
+
 import React from "react";
+import styles from "./suppliers.module.css";
+
 
 const SuppliersPage = () => {
+  const suppliers = [
+    { id: 1, name: "Kumtel A.Ş", description: "Leading manufacturer of home appliances.", image: "Kumte-logo.png"},
+    { id: 2, name: "Sefa Çelik Kapı", description: "High-quality steel door producer.", image: "sefa-logo.png"},
+    { id: 3, name: "Jummimen Glass Co.", description: "Innovative glass solutions worldwide." },
+  ];
+
   return (
-    <div className="suppliers-page">
-      <header className="header">
-        <div className="logo">Rosehan Trade</div>
-        <nav className="nav">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/suppliers">Suppliers</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <main className="main-content">
-        <section className="hero-section">
-          <h1>Our Suppliers</h1>
-          <p>Discover our trusted network of suppliers around the globe.</p>
-        </section>
-
-        <section className="suppliers-list">
-          <h2>Featured Suppliers</h2>
-          <ul>
-            <li>Supplier 1 - Description</li>
-            <li>Supplier 2 - Description</li>
-            <li>Supplier 3 - Description</li>
-            {/* Add more suppliers dynamically here */}
-          </ul>
-        </section>
-      </main>
-
-      <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} Rosehan Trade. All rights reserved.</p>
-      </footer>
+    <div className={styles.SContainer}>
+      <h1 className={styles.STitle}>Our Suppliers</h1>
+      <div className={styles.SList}>
+        {suppliers.map((supplier) => (
+          <div key={supplier.id} className={styles.SCard}>
+            <div className={styles.SImage}>
+            <img src={supplier.image} />
+            </div>
+            <br></br> 
+            <h2 className={styles.SName}>{supplier.name}</h2>
+            <p className={styles.SDescription}>{supplier.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
