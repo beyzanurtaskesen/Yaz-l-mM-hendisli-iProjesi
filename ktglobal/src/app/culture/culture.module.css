@@ -1,50 +1,109 @@
-.kulturumuz-container {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-  
-  .header {
-    text-align: center;
-    background-color: #004080;
-    color: white;
-    padding: 20px 0;
-  }
-  
-  .header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-  }
-  
-  .header p {
-    margin: 10px 0 0;
-    font-size: 1.2rem;
-  }
-  
-  .values-section {
+/* Genel yapı */
+.cultureContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #f8f9fa; /* Beyaz arka plan */
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .cultureHeader {
+    text-align: center;
+    background-color: #8b0000; /* Koyu kırmızı */
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+  }
+  
+  .cultureHeader h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+  }
+  
+  .cultureHeader p {
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  /* 1x2 Grid düzeni */
+  .cultureContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
     gap: 20px;
+    align-items: stretch; 
+    width: 100%;
     margin-top: 20px;
   }
   
-  .value-item {
+  /* Görsel düzeni */
+  .cultureImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cultureImage {
+    width: 100%;
+    height: 100%; /* Görselin yükseklik ve genişliği %100 olacak şekilde ayarlandı */
+    object-fit: cover; /* Görselin uygun şekilde kesilmesini sağlar */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Yazı düzeni */
+  .cultureText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: white;
-    padding: 15px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    height: 100%; 
   }
   
-  .value-item h2 {
-    color: #004080;
+  .cultureFooter {
+    text-align: right;
+    margin-top: 30px;
+    padding: 20px 0;
+    color: #777;
+    font-size: 0.9rem;
+    margin-right: 20px;
   }
   
-  .value-item ul {
-    list-style-type: square;
-    padding-left: 20px;
-  }
+  @media (max-width: 768px) {
+    .cultureHeader h1 {
+      font-size: 2.5rem;
+    }
   
-  .value-item ul li {
-    margin: 5px 0;
+    .cultureContent {
+      grid-template-columns: 1fr; /* Mobilde tek sütun */
+    }
+  
+    .cultureImageWrapper {
+      max-width: 100%;
+    }
+  
+    .cultureText {
+      padding: 20px;
+    }
+  
+    .cultureHeader p {
+      font-size: 1rem;
+    }
   }
   

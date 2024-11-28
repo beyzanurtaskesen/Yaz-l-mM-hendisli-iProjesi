@@ -1,48 +1,44 @@
 import React from "react";
-import "./culture.module.css"; // CSS dosyasını unutmayın!
+import styles from "./culture.module.css";
 
-const Kulturumuz = () => {
+const CulturePage = () => {
   return (
-    <div className="kulturumuz-container">
-      <header className="header">
+    <div className={styles.cultureContainer}>
+      <header className={styles.cultureHeader}>
         <h1>Kültürümüz</h1>
-        <p>Değerlerimiz, vizyonumuz ve iş anlayışımız...</p>
+        <p>
+          Global ve Yerel Değerler Arasında Denge. Çalışma kültürümüz, yenilikçi,
+          girişimci ve sorumluluk sahibi bir anlayışla şekillenmektedir. Hem yerel
+          hem de uluslararası pazarlarda güçlü iş ilişkileri kurarak karşılıklı güven
+          ve saygıyı ön planda tutuyoruz. Çalışanlarımızla ve iş ortaklarımızla sürekli
+          bir öğrenme ve gelişim süreci içindeyiz, global pazarda başarılı olmak için
+          farklı kültürleri anlamaya ve çeşitliliğe değer veriyoruz.
+        </p>
       </header>
-      <section className="values-section">
-        <div className="value-item">
-          <h2>Vizyon</h2>
+      <main className={styles.cultureContent}>
+        {/* Görseli ekliyoruz */}
+        <div className={styles.cultureImageWrapper}>
+          <img
+            src="company_culture.png" // Görselin yolu (public/images dizininde yer almalı)
+            alt="Şirket Kültürü"
+            className={styles.cultureImage}
+          />
+        </div>
+
+        {/* Yazı kısmı */}
+        <div className={styles.cultureText}>
           <p>
-            KT Global olarak müşteri odaklı yaklaşımımız ve sürekli gelişim
-            stratejimizle sektör liderliğini hedefliyoruz.
+            Kültürümüz, tüm faaliyetlerimizin temelini oluşturan değerler ve ilkelerle
+            şekillenmiştir. Bu değerler, şirketimizin küresel ve yerel düzeydeki
+            başarılarının yapı taşlarıdır. Çalışanlarımızın ve iş ortaklarımızın
+            birbirine duyduğu güven, karşılıklı saygı ve işbirliği kültürümüzün ayrılmaz
+            bir parçasıdır. Bu kültür, hem iş yerinde hem de dış dünyada uzun vadeli
+            başarıyı getiren en önemli faktörlerden biridir.
           </p>
         </div>
-        <div className="value-item">
-          <h2>Misyon</h2>
-          <p>
-            Yaratıcı çözümlerimizle müşterilerimize değer katmak, iş dünyasında
-            sürdürülebilir başarı sağlamak.
-          </p>
-        </div>
-        <div className="value-item">
-          <h2>Değerlerimiz</h2>
-          <ul>
-            <li>Dürüstlük ve Güvenilirlik</li>
-            <li>Yenilikçilik</li>
-            <li>Sürekli Gelişim</li>
-            <li>Toplumsal Sorumluluk</li>
-          </ul>
-        </div>
-      </section>
+      </main>
     </div>
   );
 };
 
-export default function CulturePage() {
-  return (
-    <div>
-      <h1>Kültürümüz</h1>
-      <p>Bu sayfa şirketin değerlerini ve misyonunu tanıtır.</p>
-    </div>
-  );
-}
-
+export default CulturePage;
