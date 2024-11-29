@@ -1,0 +1,61 @@
+.nav {
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-color: #97383d;
+
+  border-size: 10pt;
+}
+
+.navLinks {
+  padding: 20px;
+  color: #13102c;
+  font-size: 18pt;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.div1 {
+  margin: 50px;
+  background-color: #5a5667;
+  opacity: 0.9;
+  color: white;
+}
+
+.footerHeader {
+  color: white;
+}
+.footer {
+  color: white;
+  background-color: #13102c;
+  opacity: 0.75;
+}
+.footerLinks {
+  color: whitesmoke;
+  background-color: #5a5667;
+}
+
+td,
+th {
+  padding: 15px;
+  vertical-align: top;
+}
+
+.title {
+  margin: 50px;
+  color: white;
+}
+
+.table {
+  text-align: left;
+  margin: 50px;
+}
+
+body {
+  text-align: left;
+  background-image: url(https://lh3.googleusercontent.com/pw/AP1GczNKNzzgWgiqYr3XdEzzH4cC-dQp99WhG7gU9Ac_4AoCjJMOMS7wNC0nHz6rQeI5-k37w5yHbNx-IS8HiBGQ870QyplCXJoEeE8tBJpMJtjBzk0eR9-W5Ujr5QMKVlI3wDYDSjAWWq4vo83vW8XjJkwVmNyLPCVnUVU6_FaNr6dCw8mTJ5v6bWY_IajumBDPt2vgS2kIBq853780Qs00TzR-1QrVdtrSCXAFs5Z_JzSrqCrZswqs3YXPJOeo087niTtuATd197WDcGTaXcdaTSiXEFyEhvFy829XWnRoAD-x0LRlZ-q_xJJlG5_LvO_MMf4ytbr-MmoYLUyovLV5pew0PjgTLi4Ff702mip4wj-tpSfcxf8B17mFtS0jrgDfhwKtc9DVv6wEGR6VfP6tSooOZ4TqZVxsOBcEiYW9zA79OerKnekJXCmscjiDtAMC84Y1CY4zbPDVTm8DS9AXJbPQNaA2KkS7C14WraxYxM2uU_yd7cjyKG2CL2Wh-1fqXnC7JQqZoT3JgQrjzwZ5yyRALfJ32K0fsocT27-qX1FXb46BZtp3CWEjyKXZ4lNjBKU1xzV9LUzpf6QmIIrjH7qnjctebtPVeR6Yi_lZUrJWlBw7jLZHK8GgGQCZfJkmvFXSTiHLK10z-eAR-mqk3VTdPkksqzjdyYZJdrlsx41lvZjVtRpQbiLuhUc3a8cis7px69O2QA3zHcdcnmn7s9-RzL1jpTXkfRStIEJqJvHPylQTSsx-LGRMpU2oT5LlcJIMLfV2fQyOv-LePcgM12_9Lr7Uegk2WTtSZDmhb4hIoJj_u-x0jkJk12bM1qeADmxosLbXsgrc9kbdrLuhcuVRuPkAZK53rOvuLh9r2oMvXEOKobYV1tzEJPhkjuyycS0p7ZvhvNQxB58qeWDYfqdgO2eQN27slbG9B0-mG2_MWCtZUvrX-zCm1PyGBjLrmSQUcJCxiMp9oSf84Um02PUuDBKuM61Bbw=w716-h716-s-no?authuser=0);
+
+  background-size: cover;
+}
