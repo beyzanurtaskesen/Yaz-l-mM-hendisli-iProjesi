@@ -7,13 +7,13 @@ const SuppliersPage = () => {
   const suppliers = [
     { id: 1, name: "Kumtel A.Ş", description: "Leading manufacturer of home appliances.", image: "Kumte-logo.png"},
     { id: 2, name: "Sefa Çelik Kapı", description: "High-quality steel door producer.", image: "sefa-logo.png"},
-    { id: 3, name: "Jummimen Glass Co.", description: "Innovative glass solutions worldwide.", image:"logo.png" },
+    { id: 3, name: "Jummimen Glass Co.", description: "Innovative glass solutions worldwide." },
   ];
   const musavirlik = [
-    { id: 1, name: "Gürdal Gümrük Müşavirliği", description: "Gürdal Gümrük Müşavirliği", image: "logo.png"},
+    { id: 1, name: "Gürdal Gümrük Müşavirliği", description: "Gürdal Gümrük Müşavirliği"},
   ]
   const groupCompany = [
-    { id: 1, name: "Sultan Global Gıda İthalat İhracat Limited Şirketi", description: "Sultan Global Gıda İthalat İhracat Limited Şirket", image: "logo.png"}
+    { id: 1, name: "Sultan Global Gıda İthalat İhracat Limited Şirketi", description: "Sultan Global Gıda İthalat İhracat Limited Şirket" }
   ]
 
   return (

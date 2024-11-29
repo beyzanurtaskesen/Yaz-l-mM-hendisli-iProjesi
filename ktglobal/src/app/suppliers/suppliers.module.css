@@ -1,7 +1,7 @@
 .SContainer {
   font-family: 'Arial', sans-serif;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .SCard {
-  background: white;
+  background: #ECEBDE;
   border: 1px solid #ddd;
   border-radius: 40px;
   padding: 20px;
@@ -31,7 +31,8 @@
   height: 400px; /* Kartların sabit yüksekliği */
   text-align: center;
   box-shadow: 0 15px 20px rgba(146, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0.85;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 03.s ease;
 }
 
 .SCard:hover {
@@ -62,7 +63,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: transparent;
   border-radius: 8px;
   padding: 20px;
   height: 150px; /* Görsel alanı için sabit yükseklik */
