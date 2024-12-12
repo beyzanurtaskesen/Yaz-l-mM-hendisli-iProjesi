@@ -1,0 +1,118 @@
+/* Genel Tasarım */
+.currency-container {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  opacity: 100;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Sidebar Tasarımı */
+.ForexContainer {
+  position: fixed;
+  top: 10%;
+  right: -300px; /* Başlangıçta görünmez */
+  width: 300px;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  transition: right 0.3s ease, opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.ForexContainer.open {
+  right: 0; /* Açıldığında sağdan kayar */
+}
+
+/* Döviz Bilgileri */
+.currency-item {
+  font-size: 14px;
+}
+
+/* Modern Buton Tasarımı */
+.toggleButton {
+  position: fixed;
+  top: 1.6%;
+  right: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #5d0909, #97383D);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  z-index: 1100;
+}
+
+.toggleButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.toggleButton:active {
+  transform: scale(1);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.toggleButton:focus {
+  outline: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive Tasarım */
+
+/* Tablet Görünümü */
+@media (max-width: 768px) {
+  .ForexContainer {
+    width: 80%; /* Tablet görünümü için genişlik */
+    right: -80%; /* Başlangıçta görünmez */
+  }
+
+  .ForexContainer.open {
+    right: 0; /* Açıldığında ekranın %80'ini kaplar */
+  }
+
+  .toggleButton {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+}
+
+/* Mobil Görünümü */
+@media (max-width: 480px) {
+  .ForexContainer {
+    width: 100%; /* Mobil görünümde tam ekran */
+    height: 100%;
+    right: -100%; /* Başlangıçta görünmez */
+    border-radius: 0px;
+  }
+
+  .ForexContainer.open {
+    right: 0; /* Açıldığında ekranın tamamını kaplar */
+  }
+
+  .toggleButton {
+    right: 5px;
+    top: 5px;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 20px; /* Daha kompakt görünüm için */
+  }
+}
+
+/* Genel Responsive Uyarlamalar */
+.currency-item {
+  font-size: 12px; /* Küçük ekranlarda metin boyutu azaltıldı */
+}
