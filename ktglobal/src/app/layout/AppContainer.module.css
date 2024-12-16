@@ -1,0 +1,13 @@
+.appContainerStyle {
+    margin-top: 5vh; 
+    padding: 20px;
+}
+
+.BackGroundImage {
+    min-height: 100vh; /* Tüm ekran yüksekliğini kapsar */
+    background-image: url('/background-logo.png'); /* public klasöründen yolu ver */
+    background-size: cover; /* Alanı tamamen kaplar */
+    background-repeat: no-repeat; /* Tekrarlama yok */
+    background-position: center; /* Ortalayarak yerleştir */
+  }
+  
