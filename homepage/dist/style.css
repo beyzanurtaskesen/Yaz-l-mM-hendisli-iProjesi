@@ -68,7 +68,7 @@ main {
   display: flex;
   align-items: center; /* Dikey olarak ortala */
   padding: 5px;
-  justify-content: space-between; /* Yatay olarak aralarında boşluk bırak */
+  justify-content: space-between; /* Yatay olarak aralarÄ±nda boÅŸluk bÄ±rak */
 }
 
 .button{
@@ -81,6 +81,6 @@ main {
 }
 
 #img {
-  width: %75;
-  height: auto;
+  width: 1000px;
+  height: 750px;
 }
