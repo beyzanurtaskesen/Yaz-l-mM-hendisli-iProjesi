@@ -1,26 +1,8 @@
-.nav {
-  background-color:white;
-  text-align:center;
-  color:black;
-  font-family: Arial, Helvetica, sans-serif;
-  border-bottom-style: solid;
-  border-top-style: solid;
-  border-color:#97383D;
-  
-  border-size: 10pt;
-}
 
-.navLinks {
-  padding: 20px;
-  color:#13102C;
-  font-size: 18pt;
-  font-family: "Lucida Console", "Courier New", monospace;
-}
 
-.div1{
+.div{
   margin: 50px;
-  background-color: #5a5667;
-  opacity: 0.90;
+  background-color: rgba(90,86,103,0.5);
   color : white
 }
 
@@ -43,7 +25,7 @@ td, th {
 }
 
 .title{
-  margin: 50px;
+  margin: 50px auto;
   color: white;
   background-color: #97383D;
   width: 200px;
