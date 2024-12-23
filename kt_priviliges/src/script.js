@@ -1,19 +1,29 @@
 import React from "https://esm.sh/react";
 import ReactDOM from "https://esm.sh/react-dom/client";
 
-function Privilages() {
+function Navbar() {
   return (
-    <body>
-    <h1 class = "title"> Ayrıcalıklarımız </h1>
- <div class = "div">
-   
-   <p class ="text"> Şirketimiz, güvenli, hızlı ve ekonomik lojistik çözümleriyle müşterilerine ayrıcalıklı bir deneyim sunar. Her aşamada müşteri isteklerini ve ihtiyaçlarını ön planda tutarak, yapıcı çözümler sunarız. İthalat, ihracat ve gümrükleme süreçlerinde, müşterilerimizin taleplerine en uygun ve verimli hizmeti sağlamak için sürekli olarak çözümler geliştiririz. Ticaretin her aşamasında şeffaflık sağlayarak, güvenilirliğimizi pekiştirir ve müşterilerimize sorunsuz bir ticaret deneyimi sunarız. </p>
-   
-   </div>
-</body>
+    <nav>
+      <ul class = "list">
+        <li class="dropdown"> <img id="kt" src="KT_navbar.png"></img> </li>
+        <li class="dropdown"> <a class = "navIndexs" href="https://github.com">Anasayfa</a></li>
+        <li class="dropdown"> <a class = "navIndexs" href=" ">Biz Kimiz</a>
+          <ul class="dropdown-menu">
+            <li><a class = "dropdown-menu-links" href="  ">Vizyonumuz</a></li>
+            <li><a class = "dropdown-menu-links" href="#">Misyonumuz</a></li>
+            <li><a class = "dropdown-menu-links" href="#">Kapsam</a></li>
+            <li><a class =  "dropdown-menu-links" href="#">Kültürümüz</a></li>
+            <li><a class =  "dropdown-menu-links" href="#">Ayrıcalıklarımız</a></li>
+            <li><a class =  "dropdown-menu-links" href="#">Hedeflerimiz</a></li>
+            <li><a class =  "dropdown-menu-links" href="#">Değerlerimiz</a></li>
+          </ul></li>
+        <li class="dropdown"> <a class = "navIndexs" href=" ">Ürünlerimiz</a> </li>
+        <li class="dropdown"> <a class = "navIndexs" href=" ">Hizmetlerimiz</a> </li>
+        <li class="KT"> <a class = "navIndexs" href=" ">KaliTeli Ticaret</a></li>
+      </ul>
+    </nav>
   );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Privilages />);
-
+root.render(<Navbar />);
