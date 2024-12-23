@@ -1,50 +1,74 @@
-.div{
-  margin: 50px;
-  background-color: rgba(90,86,103,0.5);
-  color : white
-}
-
-.footerHeader{
-  color: white;
-}
-.footer{
-  color : white;
-  background-color : #13102C;
-  opacity: 0.75;
-}
-.footerLinks{
-  color: whitesmoke;
-  background-color: #5a5667;
-}
-
-td, th {
-  padding: 15px;
-  vertical-align: top;
-}
-
-.title{
-  margin: 50px auto;
-  color: white;
-  background-color: #97383D;
-  width: 28vw;
-  border-radius: 20px;
+nav {
+  background-color:white;
   text-align:center;
-  font-size: 4vw;
-}
-
-.table{
-  text-align: left;
-  margin: 50px;
-}
-
-body{
-  text-align: left;
-  background-image: url(KT_background.PNG);
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+  border-top-style: solid;
+  border-color:#97383D;
+  border-size: 10vw;
   
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+nav ul {
+  list-style-type: none;
+  margin: 1vw;
+  padding: 0;
 }
 
-.text{
-  font-size: 3vw;
+nav li {
+  float: left;
+}
+
+.navIndexs{
+  padding: 50px;
+  color:#13102C;
+  font-size: 20pt;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  margin:0;
+}
+
+.dropdown-menu {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  width: 125px;
+  display: none; /* Hide the dropdown menu by default */
+  position: absolute; /* Position the menu absolutely */
+  top: 95%; /* Move the menu above its parent element */
+  z-index: 5; /* Ensure the menu is on top of other elements */
+  background-color: #fff; /* Set a background color */
+  list-style: none; /* Remove default bullet points */
+  overflow-y: auto;
+}
+.dropdown-menu li {
+  float: none; /* Remove horizontal floating */
+  position: left;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.list {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex; /* Make the list items display inline */
+      justify-content: space-between; /* Distribute items evenly */
+      align-items: center; /* Align items vertically */
+}
+
+nav ul li a {
+  /* Base styles for all links */
+  color: black; /* Or your desired base color */
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#kt{
+  object-position: center;
+  background-position: center;
+  height: auto;
+  width: 5vw; /* Viewport geniÅŸliÄŸi kadar */
 }
