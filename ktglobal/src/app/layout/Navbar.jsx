@@ -4,15 +4,25 @@ import styles from "./Navbar.module.css"
 
 export default function Navbar() {
   return (
-  
-  <nav className = {styles.nav}>
-      <ul>
-        <a className = {styles.navLinks} href="https://github.com">Anasayfa</a>
-        <a className = {styles.navLinks} href=" ">Biz Kimiz</a>
-        <a className = {styles.navLinks} href=" ">Ürünlerimiz</a>
-        <a className = {styles.navLinks} href=" ">Hizmetlerimiz</a>
-        <a className = {styles.navLinks} href=" ">KaliTeli Ticaret</a>
+
+    <nav>
+      <ul class = list>
+        <li class="dropdown"> <img id="kt" src="KT_navbar.png"></img> </li>
+        <li class="dropdown"> <a class = "navIndexs" href="https://github.com">Anasayfa</a></li>
+        <li class="dropdown"> <a class = "navIndexs" href=" ">Biz Kimiz</a>
+          <ul class="dropdown-menu">
+            <li><a class = "dropdown-menu-links" href="  ">Vizyonumuz</a></li>
+            <li><a class = "dropdown-menu-links" href="#">Misyonumuz</a></li>
+            <li><a class = "dropdown-menu-links" href="#">Kapsam</a></li>
+            <li><a class =  "dropdown-menu-links" href="#">Kültürümüz</a></li>
+            <li><a class =  "dropdown-menu-links" href="#">Ayrıcalıklarımız</a></li>
+            <li><a class =  "dropdown-menu-links" href="#">Hedeflerimiz</a></li>
+            <li><a class =  "dropdown-menu-links" href="#">Değerlerimiz</a></li>
+          </ul></li>
+        <li class="dropdown"> <a class = "navIndexs" href=" ">Ürünlerimiz</a> </li>
+        <li class="dropdown"> <a class = "navIndexs" href=" ">Hizmetlerimiz</a> </li>
+        <li class="KT"> <a class = "navIndexs" href=" ">KaliTeli Ticaret</a></li>
       </ul>
-  </nav>
+    </nav>
   );
 };
