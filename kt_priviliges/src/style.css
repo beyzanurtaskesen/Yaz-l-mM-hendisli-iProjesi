@@ -3,25 +3,6 @@
   background-color: rgba(90,86,103,0.5);
   color : white
 }
-
-.footerHeader{
-  color: white;
-}
-.footer{
-  color : white;
-  background-color : #13102C;
-  opacity: 0.75;
-}
-.footerLinks{
-  color: whitesmoke;
-  background-color: #5a5667;
-}
-
-td, th {
-  padding: 15px;
-  vertical-align: top;
-}
-
 .title{
   margin: 50px auto;
   color: white;
