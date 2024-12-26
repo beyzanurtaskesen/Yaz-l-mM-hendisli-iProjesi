@@ -38,25 +38,23 @@ td, th {
 
 .title{
    text-align:center;
-  margin: 50px;
+  margin: 50px auto;
   color: white;
   background-color: #97383D;
   
-  width: 300px;
+  width: 500px;
   border-radius: 20px;
   
 }
 .text{
-  margin: 50px;
-  background-color: #5a5667;
-  opacity: 0.90;
+  margin: 0px;
+  background-color: rgba(90,86,103,0.5);
   color : white
 }
 
 .list{
   margin: 50px;
-  background-color: #5a5667;
-  opacity: 0.90;
+  background-color: rgba(90,86,103,0.5);
   color : White
 }
 
