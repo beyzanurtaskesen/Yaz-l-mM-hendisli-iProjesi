@@ -3,7 +3,7 @@ const { useState } = React;
 function App() {
   return /*#__PURE__*/(
     React.createElement("div", { className: "App" }, /*#__PURE__*/
-    React.createElement("h1", { className: "title" }, "\xC7\xF6z\xFCm Ortaklar\u0131m\u0131z"), /*#__PURE__*/
+    React.createElement("h1", { className: "title" }, "\xDCr\xFCnlerimiz"), /*#__PURE__*/
 
     React.createElement("div", { class: "photo-gallery" }, /*#__PURE__*/
 

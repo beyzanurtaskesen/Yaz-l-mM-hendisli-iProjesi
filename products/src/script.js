@@ -3,7 +3,7 @@ const { useState } = React;
 function App() {
   return (
     <div className="App">
-      <h1 className="title">Çözüm Ortaklarımız</h1>
+      <h1 className="title">Ürünlerimiz</h1>
 
        <div class= "photo-gallery">
    
