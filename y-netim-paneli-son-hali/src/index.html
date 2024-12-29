@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yönetim Paneli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="admin-container">
+        <header>
+            <h1>Yönetim Paneli</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showSection('home')">Ana Sayfa</a></li>
+                    <li><a href="#" onclick="showSection('addContent')">Ürünlerimiz</a></li>
+                    <li><a href="#" onclick="showSection('editContent')">Biz Kimiz</a></li>
+                    <li><a href="#" onclick="showSection('settings')">İletişim</a></li>
+                    <li><a href="#" id="logout">Çıkış Yap</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <!-- Ana Sayfa -->
+            <section id="home" class="section" style="display: block;">
+                <h2>Hoşgeldiniz!</h2>
+                <p>Yönetim paneline hoş geldiniz. Buradan içerik ekleyebilir, düzenleyebilir ve ayarları yönetebilirsiniz.</p>
+            </section>
+
+            <!-- İçerik Ekleme -->
+            <section id="addContent" class="section" style="display: none;">
+                <h2>Ürünlerimiz</h2>
+              <div class="input-group">
+<img src="https://asmakinaesanjor.com.tr/wp-content/uploads/2016/10/endustriyel_makine_uretimi_main-1.jpg" class="deletable-image">
+<img src="https://www.ozkapsan.com/img/celik-kapi-modelleri/proje-serisi/proje-serisi-celik-kapilar-category-min.jpg" class="deletable-image">
+<img src="https://normev.com/cdn/shop/files/normev-miran-koltuk-takimi-inegol-mobilya-salon-ve-oturma-grubu-1.jpg?v=1716893343&width=1080">
+<img src="https://ideacdn.net/shop/df/64/myassets/products/849/iki-duvararasi-dusakabin-2-sabit-2-kayar.jpg?revision=1697143329" class="deletable-image">
+<img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85/61061/uploads/urunresimleri/buyuk/kumtel-siyah-cam-ankastre-firin--99b-8d.jpg" class="deletable-image">
+<img src="https://gundogdukayisi.com/image/cache/catalog/urun-resimleri/dogal-sari-kuru-kayisi-1numara-600x315w.jpg" class="deletable-image">
+<img src="https://cdn.kisikates.com.tr/image-cache/cache/post_main_image_large/https---cdn.kisikates.com.tr/post-main-image/4cf61ab79bfcdc7e6e7616494edd56ed302e5e3f.jpg" class="deletable-image">
+<img src="https://www.birbes.com/wp-content/uploads/2018/05/Ceviz-Nedir-Faydalar%C4%B1-Ve-Zararlar%C4%B1-Nelerdir.jpg" class="deletable-image">
+<img src="https://ikramhurma.com/wp-content/uploads/2023/02/medine-mebrum-hurma-5.jpg" class="deletable-image">
+<img src="https://aslindacom.teimg.com/crop/1280x720/aslinda-com/uploads/2024/09/uzum-hangi-ayda-cikar-uzum-mevsimi-ne-zaman-baslar.jpg" class="deletable-image">
+<img src="https://i.lezzet.com.tr/images-xxlarge-secondary/kayisi-diyeti-nedir-08bc7fa3-4e7c-49a8-8b0d-74c70d14c5f0" class="deletable-image" >
+<img src="https://www.mervacam.com.tr/uploads/urunlerimiz/h-duzcam.jpg" class="deletable-image">
+<img src="https://cdn.akakce.com/kumtel/kumtel-ko-40-tshdf-beyaz-cam-set-ustu-z.jpg" class="deletable-image">
+                    </div>  
+              <form id="addContentForm">
+                    <input type="file" id="imageInput" accept="image/*">
+                    <div id="imageGallery"></div>
+
+              </form>
+            </section>
+
+            <!-- İçerik Düzenleme -->
+            <section id="editContent" class="section" style="display: none;">
+                <h2>Biz Kimiz</h2>
+                <form id="editContentForm">
+                                         <div class="input-group">
+                        <label for="editTitle">Vizyonumuz Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Vizyonumuz İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                    <div class="input-group">
+                        <label for="editTitle">Hedeflerimiz Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Hedeflerimiz İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                    <div class="input-group">
+                        <label for="editTitle">Kültürümüz Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Kültürümüz İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                    <div class="input-group">
+                        <label for="editTitle">Tedarikçilerimiz Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Tedarikçilerimiz İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                    <div class="input-group">
+                        <label for="editTitle">Misyonumuz Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Misyonumuz İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                                      <div class="input-group">
+                        <label for="editTitle">Değerlerimiz Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Değerlerimiz İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                                      <div class="input-group">
+                        <label for="editTitle">Ayrıcalıklarımız Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Ayrıcalıklarımız İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                                      <div class="input-group">
+                        <label for="editTitle">Çözüm Odaklarımız Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Çözüm Odaklarımız İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                                      <div class="input-group">
+                        <label for="editTitle">Grup Şirketlerimiz Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Grup Şirketlerimiz İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                                      <div class="input-group">
+                        <label for="editTitle">Ticaret Sürecimiz Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Ticaret Sürecimiz İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                                                      <div class="input-group">
+                        <label for="editTitle">Kapsam Başlığı</label>
+                        <input type="text" id="editTitle" name="editTitle" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="editContent">Kapsam İçeriği</label>
+                        <textarea id="editContent" name="editContent" rows="5" required></textarea>
+                    </div>
+                  
+                    <button type="submit">Değişiklikleri Kaydet</button>
+                </form>
+            </section>
+
+            <!-- Ayarlar -->
+            <section id="settings" class="section" style="display: none;">
+                <h2>İletişim</h2>
+                <form id="settingsForm">
+                    <div class="input-group">
+                        <label for="fullName">Ad Soyad</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">E-Posta</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <button type="submit">İletişim Bilgilerini Kaydet</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script src="admin-panel.js"></script>
+</body>
+</html>
