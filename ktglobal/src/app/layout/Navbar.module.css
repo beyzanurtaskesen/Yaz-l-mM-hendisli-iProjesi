@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nav {
     background-color:white;
     text-align:center;
@@ -56,3 +57,79 @@
   .body{
     text-align: left;
   }
+=======
+nav {
+  background-color:white;
+  text-align:center;
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+  border-top-style: solid;
+  border-color:#97383D;
+  border-size: 10vw;
+  
+}
+nav ul {
+  list-style-type: none;
+  margin: 1vw;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+.navIndexs{
+  padding: 50px;
+  color:#13102C;
+  font-size: 20pt;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  margin:0;
+}
+
+.dropdown-menu {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  width: 125px;
+  display: none; /* Hide the dropdown menu by default */
+  position: absolute; /* Position the menu absolutely */
+  top: 95%; /* Move the menu above its parent element */
+  z-index: 5; /* Ensure the menu is on top of other elements */
+  background-color: #fff; /* Set a background color */
+  list-style: none; /* Remove default bullet points */
+  overflow-y: auto;
+}
+.dropdown-menu li {
+  float: none; /* Remove horizontal floating */
+  position: left;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.list {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex; /* Make the list items display inline */
+      justify-content: space-between; /* Distribute items evenly */
+      align-items: center; /* Align items vertically */
+}
+
+nav ul li a {
+  /* Base styles for all links */
+  color: black; /* Or your desired base color */
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#kt{
+  object-position: center;
+  background-position: center;
+  height: auto;
+  width: 5vw; /* Viewport genişliği kadar */
+}
+>>>>>>> main
