@@ -1,3 +1,63 @@
+<<<<<<< HEAD
+.nav {
+    background-color:white;
+    text-align:center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color:#97383D;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .navLinks {
+    padding: 20px;
+    color:#13102C;
+    font-size: 18pt;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .div{
+    margin: 50px;
+    background-color: #5a5667;
+    opacity: 0.90;
+    color : white
+  }
+  
+  .footerHeader{
+    color: white;
+  }
+  
+  .footer{
+    color : white;
+    background-color : #13102C;
+    opacity: 0.75;
+  }
+  
+  .footerLinks{
+    color: whitesmoke;
+    background-color: #5a5667;
+  }
+  
+  .title{
+    text-align:center;
+    margin: 50px;
+    color: white;
+    background-color: #97383D;
+    width: 200px;
+    border-radius: 20px;
+  }
+  
+  .table{
+    text-align: left;
+    margin: 50px;
+  }
+  
+  .body{
+    text-align: left;
+  }
+=======
 nav {
   background-color:white;
   text-align:center;
@@ -72,3 +132,4 @@ nav ul li a {
   height: auto;
   width: 5vw; /* Viewport genişliği kadar */
 }
+>>>>>>> main

@@ -6,7 +6,7 @@ import styles from "./AppContainer.module.css"
 
 const AppContainer = ({ children }) => {
   return (
-    <div>
+    <div className= {styles.BackGroundImage}>
       <Navbar />
       <main className={styles.appContainerStyle}>{children}</main>
       <Footer />
