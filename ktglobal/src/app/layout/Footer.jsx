@@ -26,9 +26,9 @@ export default function Footer() {
       <div className={styles.ContactUs}>
       <h3 className = {styles.footerHeader}> Bize Ulaşın </h3>
       <ul>
-        <li><h4>Adres:</h4> <p>Safir Center Kayseri Organize Sanayi Bölgesi ,8.Sok.No :3 ,38070 Melikgazi /Kayseri</p></li>
+        <li><h4>Adres:</h4> <p>Safir Center Kayseri Organize Sanayi Bölgesi, 8. sokak No :3, 38070 Melikgazi / Kayseri</p></li>
         <li><h4>E-Mail:</h4> <p>kttradecustoms@outlook.com</p></li>
-        <li><h4>Telefon:</h4> <p>+905363054909</p></li>
+        <li><h4>Telefon:</h4> <p>+90 536 305 49 09</p></li>
       </ul>
       </div>
       </td>

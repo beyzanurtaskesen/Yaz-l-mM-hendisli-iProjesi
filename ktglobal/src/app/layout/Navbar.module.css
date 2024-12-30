@@ -1,135 +1,95 @@
-<<<<<<< HEAD
-.nav {
-    background-color:white;
-    text-align:center;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom-style: solid;
-    border-top-style: solid;
-    border-color:#97383D;
-    border-radius: 10px;
-    padding: 20px;
-  }
-  
-  .navLinks {
-    padding: 20px;
-    color:#13102C;
-    font-size: 18pt;
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
-  
-  .div{
-    margin: 50px;
-    background-color: #5a5667;
-    opacity: 0.90;
-    color : white
-  }
-  
-  .footerHeader{
-    color: white;
-  }
-  
-  .footer{
-    color : white;
-    background-color : #13102C;
-    opacity: 0.75;
-  }
-  
-  .footerLinks{
-    color: whitesmoke;
-    background-color: #5a5667;
-  }
-  
-  .title{
-    text-align:center;
-    margin: 50px;
-    color: white;
-    background-color: #97383D;
-    width: 200px;
-    border-radius: 20px;
-  }
-  
-  .table{
-    text-align: left;
-    margin: 50px;
-  }
-  
-  .body{
-    text-align: left;
-  }
-=======
-nav {
-  background-color:white;
-  text-align:center;
-  color:black;
+.navContainer {
+  background-color: white;
+  text-align: center;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   border-top-style: solid;
-  border-color:#97383D;
-  border-size: 10vw;
-  
+  border-color: #97383D;
+  border-radius: 10vw;
 }
-nav ul {
+
+
+.nav ul {
   list-style-type: none;
   margin: 1vw;
   padding: 0;
 }
 
-nav li {
+.nav li {
   float: left;
 }
 
-.navIndexs{
-  padding: 50px;
-  color:#13102C;
+.navIndexs {
+  color: #13102C;
   font-size: 20pt;
   font-family: Arial, sans-serif;
-}
-
-.dropdown {
-  position: relative;
-  margin:0;
-}
-
-.dropdown-menu {
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-  width: 125px;
-  display: none; /* Hide the dropdown menu by default */
-  position: absolute; /* Position the menu absolutely */
-  top: 95%; /* Move the menu above its parent element */
-  z-index: 5; /* Ensure the menu is on top of other elements */
-  background-color: #fff; /* Set a background color */
-  list-style: none; /* Remove default bullet points */
-  overflow-y: auto;
-}
-.dropdown-menu li {
-  float: none; /* Remove horizontal floating */
-  position: left;
-
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
 }
 
 .list {
   padding-top: 25px;
   padding-bottom: 25px;
-  display: flex; /* Make the list items display inline */
-      justify-content: space-between; /* Distribute items evenly */
-      align-items: center; /* Align items vertically */
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
 }
 
-nav ul li a {
-  /* Base styles for all links */
-  color: black; /* Or your desired base color */
+.nav ul li a {
+  color: black;
   font-size: 16px;
   text-decoration: none;
 }
 
-#kt{
+.KT {
   object-position: center;
   background-position: center;
   height: auto;
-  width: 5vw; /* Viewport genişliği kadar */
+  width: 5vw;
+  margin-left: 20px;
 }
->>>>>>> main
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownMenu {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  width: 125px;
+  display: none;
+  position: absolute;
+  top: 95%;
+  z-index: 5;
+  background-color: #fff;
+  list-style: none;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.dropdownMenu li {
+  padding: 8px 15px;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.dropdownMenu li {
+  padding: 8px 15px;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.dropdownMenu li:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.dropdownMenuLinks {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
