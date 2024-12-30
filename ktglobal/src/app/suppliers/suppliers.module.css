@@ -32,7 +32,7 @@
   text-align: center;
   box-shadow: 0 15px 20px rgba(146, 0, 0, 0.3);
   opacity: 0.85;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 03.s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
 }
 
 .SCard:hover {
