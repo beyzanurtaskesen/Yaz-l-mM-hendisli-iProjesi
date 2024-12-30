@@ -1,13 +1,13 @@
 import React from "https://esm.sh/react";
 import ReactDOM from "https://esm.sh/react-dom/client";
 
-function MyHomePage() {
+function HomePage() {
   return (
     <main>
       {/* Section Zero*/}
        <section id="sectionZero">
         <div>
-          <img id="kt" src="KT_mainpage.png"></img>
+          <img id="kt" src="https://github.com/beyzanurtaskesen/YazilimMuhendisligi_Projesi/blob/main/KT_mainpage.png?raw=true"></img>
           </div>
 </section>
          
@@ -86,7 +86,7 @@ function MyHomePage() {
 
 // Render React App
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<MyHomePage />);
+root.render(<HomePage />);
 
 // Image Carousel Logic
 let currentIndex = 0;
