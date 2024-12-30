@@ -3,7 +3,8 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
-  background-image: url(KT_background.PNG); /* Placeholder for background */
+  background-image: url(https://raw.githubusercontent.com/beyzanurtaskesen/YazilimMuhendisligi_Projesi/refs/heads/main/ktbackground/KT_background.PNG);
+; /* Placeholder for background */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
