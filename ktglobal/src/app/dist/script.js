@@ -1,31 +1,14 @@
-function showSection(sectionId) {
-    
-    const sections = document.querySelectorAll('.section');
-    sections.forEach(section => {
-        section.style.display = 'none';
-    });
-    const selectedSection = document.getElementById(sectionId);
-    if (selectedSection) {
-        selectedSection.style.display = 'block';
-    }
-}
-function deletePhoto(element) {
-    if (confirm("Bu fotoğrafı silmek istediğinize emin misiniz?")) {
-        element.remove();
-        alert('Fotoğraf başarıyla silindi.');
-    }
-}
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const deleteableImages = document.querySelectorAll('.deletable-image');
-    
-    deleteableImages.forEach(image => {
-        image.addEventListener('click', function() {
-            deletePhoto(image); 
-        });
-    });
-});
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+    var errorMessage = document.getElementById('error-message');
+    if (username === 'admin' && password === '12345') {
+        
 
-document.getElementById('logout').addEventListener('click', function() {
-     window.location.href ='https://codepen.io/nisasedaylmz/pen/WbeoPyj'; 
+        window.location.href = 'https://codepen.io/nisasedaylmz/pen/JoPoGBW'; 
+    } else {
+        errorMessage.textContent = 'Kullanıcı adı veya şifre hatalı!';
+    }
 });
