@@ -158,6 +158,15 @@ Beyza Nur Taşkesen, Emirhan Uğurlu, Esra Koç, Gevher Büşra Yetişen, Beyza 
   - İkinci sprintte, web sitesinin tasarım ve teknik altyapısının temelleri atıldı.
   - Admin paneli geliştirme süreci ve React entegrasyonu devam etti.
   - Projenin ilerlemesi adına tüm görevler zamanında tamamlanmaya odaklanıldı.
+ 
+ ## 2.SPRİNT BAŞLANGIÇ JİRA GÖRÜNTÜLERİ
+ 
+![Ekran görüntüsü 2024-12-10 214135](https://github.com/user-attachments/assets/2502cbfb-4841-492e-9d9b-0f4e042de831)
+
+![Ekran görüntüsü 2024-12-10 214106](https://github.com/user-attachments/assets/a7e7b19f-c3f9-4b63-8439-78252f86891d)
+
+
+
 
 
 
