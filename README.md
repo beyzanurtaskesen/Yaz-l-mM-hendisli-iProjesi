@@ -56,3 +56,121 @@ Beyza Nur Taşkesen, Emirhan Uğurlu, Esra Koç, Gevher Büşra Yetişen, Beyza 
 ### Sonuç:  
 İlk sprint, takımın projeye başlangıç aşamasını başarıyla tamamlamasına olanak tanıdı. Projenin teknik kısmına geçiş yapılması için gerekli altyapı hazırlandı.  
 
+# Sprint 2 Raporu
+
+## Sprint Notları
+
+- **Takım İletişimi:**  
+  İletişim WhatsApp grubu üzerinden aktif bir şekilde sağlandı.
+
+- **Görev Yönetimi:**  
+  Görev dağılımı ve takibi için Jira kullanıldı.
+
+- **Araştırma ve Planlama:**  
+  Web sitesi oluşturma sürecinde ihtiyaç duyulan aşamalarda gerekli görevlendirmeler yapılıp bu süreç başarılı bir şekilde yürütüldü.
+
+- **Kullanılan Araçlar:**
+  - **Word:** Toplantı notlarının kaydedilmesi ve çalışmaların bir araya getirilmesi için kullanıldı.
+  - **GitHub:** Projenin merkez kontrol noktası olarak tanımlandı; tüm ekip üyelerinin aktif olarak kullanması istendi.
+  - **Jira:** Görev dağılımı ve takibi yapmak için kullanıldı.
+
+---
+
+## Daily Scrum ve Toplantı Özetleri
+
+### 10.12.2024 Toplantı Özeti:
+- **Bir sonraki toplantı tarihi:** 17.12.2024, Salı günü, saati dersin işleyişine göre değişecektir. Tüm ekibin toplantıya mutlaka katılması gerekmektedir.
+
+**Görev Dağılımları:**
+1. Eğitim başvuru formu: Beyza Nur Taşkesen
+2. Sprint Raporu: Beyza Nur Taşkesen
+3. Döviz Kuru: Emirhan Uğurlu
+4. Ürünlerimiz: Elif Ceyda Özsoy
+5. Hizmetlerimiz: Saliha İşgören
+6. Anasayfa: Gevher Büşra Yetişen
+7. Admin Paneli: Kübra İkde, Beyza Delibaşo, Nisa Seda Yılmaz, Ece Cingöz
+
+**Notlar:**
+- Admin Paneli grubunun birbiriyle sıkı iletişim halinde olması ve en kısa sürede çalışmalara başlanması gerektiği vurgulandı. Bu işleyişin düzenliliği konusunda belirlenen Scrum Master rolünü Saliha İşgören yürütecektir.
+- Bir önceki sprintte yapılan sayfaların düzenlemeleri, bağlantıları ve React entegrasyonu yapılacak ve eksik bırakılmamalıdır.
+
+---
+
+### 17.12.2024 Salı Toplantı Özeti:
+**Görev Dağılımları:**
+1. Web sitesinin tasarım kısmı (yazı boşlukları, görsellerin boyutu, renk uyumları, estetik işlemler): Elif Ceyda ve Saliha yürütecek.
+2. İlk sunum için tasarlanan sayfaların React entegrasyonu: Beyzanur Delibaşo ve Kübra İkde yürütecek. Öncelikle, kendi yaptıkları sayfalarda kullandıkları kodu, ortak belirlenmiş şekilde ve herkesin aynısını kullanacağı şekilde karar kıldıktan sonra diğer ekip üyeleri ile paylaşacak. Emirhan ve Esra haricindeki 8 kişi React entegrasyonlarını gerçekleştirecek. Ek olarak, geçici olarak eklenen Navbar ve Footer kısımları çıkarılacak.
+3. Web sitesinin arka planı ve genel resim bozulmalarının önlenmesi: Beyza Nur Taşkesen üstlenecek.
+4. Domain ve Hosting satın alma işlemleri: Beyza Nur Taşkesen yürütecek.
+5. Web sitesi Footer kısmı: Emirhan üstlenecek.
+6. Veri tabanı kısmı: Esra üstlenecek.
+7. Navbar tasarımı, anasayfa ilk giriş sayfası ve eksik kısımların tamamlanması: Büşra üstlenecek. Aynı zamanda Elif Ceyda ve Saliha ile koordineli şekilde, web sitesini görsel ve fonksiyonel olarak iyileştirecek.
+8. Admin Panelinde düzenleme yapılacak kısımlar: Ece ve Seda tarafından yürütülecek.
+
+**Bir sonraki toplantı tarihi:** 21.12.2024, Cumartesi, saat 17.00 (saat değişebilir).
+
+**Notlar:**
+- Müşteri, görsel açıdan şık ve uyumlu bir tema istediğini belirtti. Tasarımı güzelleştirmek adına müşteri isteğine uygun bir web sitesi tasarlanacaktır.
+
+---
+
+## Sprint Review
+
+- **Proje Ekibi:**  
+  Proje ekibi, ikinci sprintte işbirliği içinde çalışarak, her bir görevin tamamlanması adına koordineli bir şekilde hareket etti.
+
+- **Kararlar ve Çıktılar:**
+  - Web sitesi tasarımının estetik ve işlevsel gereksinimlerine odaklanıldı.
+  - React entegrasyonu ve admin paneli geliştirme sürecinde ilerleme sağlandı.
+  - Teknik gereksinimler ve araçlar doğrultusunda araştırmalar yapıldı.
+  - GitHub ve Jira üzerinden iş takibi sağlanarak görevler düzenli olarak güncellendi.
+
+- **Katılımcılar:**
+  - Beyza Nur Taşkesen
+  - Emirhan Uğurlu
+  - Esra Koç
+  - Gevher Büşra Yetişen
+  - Beyza Delibaşo
+  - Nisa Seda Yılmaz
+  - Saliha İşgören
+  - Kübra İkde
+  - Elif Ceyda Özsoy
+  - Ece Cingöz
+
+---
+
+## Sprint Retrospective
+
+- **Scrum Master Rolü:**  
+  Beyza Nur Taşkesen, ikinci sprintin Scrum Master'ı olarak görevi devraldı ve takımın koordinasyonunu sağladı.
+
+- **UI Tasarımları:**  
+  Web sitesinin görsel tasarımında gerekli düzenlemeler yapıldı ve müşteri taleplerine uygun bir tema oluşturulmasına odaklanıldı.
+
+- **İletişim ve Katılım:**  
+  Toplantılara aktif katılımın önemi vurgulandı ve iletişim süreçlerinde daha etkin bir yapı oluşturuldu.
+
+- **Eksikler ve İyileştirmeler:**  
+  - GitHub kullanımı konusunda gelişim sağlandı, ancak ekibin bazı üyelerinin daha etkin bir kullanım sergilemesi gerektiği belirtildi.
+  - Görev paylaşımlarının netliği ve takip edilmesi güçlendirildi.
+
+- **Sonuç:**  
+  - İkinci sprintte, web sitesinin tasarım ve teknik altyapısının temelleri atıldı.
+  - Admin paneli geliştirme süreci ve React entegrasyonu devam etti.
+  - Projenin ilerlemesi adına tüm görevler zamanında tamamlanmaya odaklanıldı.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
