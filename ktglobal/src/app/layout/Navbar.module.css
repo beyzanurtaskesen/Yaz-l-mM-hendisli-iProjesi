@@ -41,7 +41,7 @@ nav li {
   list-style: none; /* Remove default bullet points */
   overflow-y: auto;
 }
-.dropdown-menu li {
+.dropdownMenu li {
   float: none; /* Remove horizontal floating */
   position: left;
 
