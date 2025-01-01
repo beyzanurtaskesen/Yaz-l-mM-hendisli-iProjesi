@@ -1,6 +1,7 @@
 "use client";
-import React from "react";
-import styles from "./Navbar.module.css";
+import React, { useState } from "react";
+import styles from "./Navbar.module.css"
+import ForexComponent from "@/app/components/forexComponent/ForexComponent"
 
 export default function Navbar() {
   return (
@@ -26,4 +27,6 @@ export default function Navbar() {
     </nav>
   );
 };
+
+
 
