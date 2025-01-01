@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
 
     <nav>
-      <ul class = list>
+      <ul class = "list">
         <li class="dropdown"> <img id="kt" src="KT_navbar.png"></img> </li>
         <li class="dropdown"> <a class = "navIndexs" href="https://github.com">Anasayfa</a></li>
         <li class="dropdown"> <a class = "navIndexs" href=" ">Biz Kimiz</a>
