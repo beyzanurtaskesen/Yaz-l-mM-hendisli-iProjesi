@@ -8,13 +8,13 @@ export default function Navbar() {
     <nav>
       <ul className={styles.list}>
         <li className={styles.dropdown}> <img id="kt" src="KT_navbar.png"></img> </li>
-        <li className={styles.dropdown}> <a class = "navIndexs" href="https://github.com">Anasayfa</a></li>
+        <li className={styles.dropdown}> <a class = "navIndexs" href="http://localhost:3000/">Anasayfa</a></li>
         <li className={styles.dropdown}> <a class = "navIndexs" href=" ">Biz Kimiz</a>
           <ul className={styles.dropdownMenu}>
             <li><a href="  ">Vizyonumuz</a></li>
             <li><a href="#">Misyonumuz</a></li>
             <li><a href="#">Kapsam</a></li>
-            <li><a href="#">Kültürümüz</a></li>
+            <li><a href="http://localhost:3000/culture">Kültürümüz</a></li>
             <li><a href="#">Ayrıcalıklarımız</a></li>
             <li><a href="#">Hedeflerimiz</a></li>
             <li><a href="#">Değerlerimiz</a></li>
