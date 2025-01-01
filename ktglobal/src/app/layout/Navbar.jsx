@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css"
 export default function Navbar() {
   return (
 
-    <nav>
+    <nav className={styles.navContainer}>
       <ul className={styles.list}>
         <li className={styles.dropdown}> <img id="kt" src="KT_navbar.png"></img> </li>
         <li className={styles.dropdown}> <a class = "navIndexs" href="http://localhost:3000/">Anasayfa</a></li>
