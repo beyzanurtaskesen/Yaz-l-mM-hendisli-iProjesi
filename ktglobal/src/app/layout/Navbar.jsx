@@ -11,17 +11,17 @@ export default function Navbar() {
         <li className={styles.dropdown}> <a class = "navIndexs" href="https://github.com">Anasayfa</a></li>
         <li className={styles.dropdown}> <a class = "navIndexs" href=" ">Biz Kimiz</a>
           <ul className={styles.dropdownMenu}>
-            <li><a class = "dropdown-menu-links" href="  ">Vizyonumuz</a></li>
-            <li><a class = "dropdown-menu-links" href="#">Misyonumuz</a></li>
-            <li><a class = "dropdown-menu-links" href="#">Kapsam</a></li>
-            <li><a class =  "dropdown-menu-links" href="#">Kültürümüz</a></li>
-            <li><a class =  "dropdown-menu-links" href="#">Ayrıcalıklarımız</a></li>
-            <li><a class =  "dropdown-menu-links" href="#">Hedeflerimiz</a></li>
-            <li><a class =  "dropdown-menu-links" href="#">Değerlerimiz</a></li>
+            <li><a href="  ">Vizyonumuz</a></li>
+            <li><a href="#">Misyonumuz</a></li>
+            <li><a href="#">Kapsam</a></li>
+            <li><a href="#">Kültürümüz</a></li>
+            <li><a href="#">Ayrıcalıklarımız</a></li>
+            <li><a href="#">Hedeflerimiz</a></li>
+            <li><a href="#">Değerlerimiz</a></li>
           </ul></li>
-        <li class="dropdown"> <a class = "navIndexs" href=" ">Ürünlerimiz</a> </li>
-        <li class="dropdown"> <a class = "navIndexs" href=" ">Hizmetlerimiz</a> </li>
-        <li class="KT"> <a class = "navIndexs" href=" ">KaliTeli Ticaret</a></li>
+        <li className={styles.dropdown}> <a className={styles.navIndexs} href=" ">Ürünlerimiz</a> </li>
+        <li className={styles.dropdown}> <a className={styles.navIndexs} href=" ">Hizmetlerimiz</a> </li>
+        <li className={styles.KT}> <a className={styles.navIndexs} href=" ">KaliTeli Ticaret</a></li>
       </ul>
     </nav>
   );
