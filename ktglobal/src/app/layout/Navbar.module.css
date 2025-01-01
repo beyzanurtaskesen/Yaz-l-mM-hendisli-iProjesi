@@ -59,7 +59,7 @@ nav li {
       align-items: center; /* Align items vertically */
 }
 
-nav ul li a {
+.dropdownMenuLinks {
   /* Base styles for all links */
   color: black; /* Or your desired base color */
   font-size: 16px;
